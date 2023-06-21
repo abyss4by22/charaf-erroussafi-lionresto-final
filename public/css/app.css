@@ -11908,3 +11908,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@font-face {
+  font-family: "Amatic";
+  src: url("../.././public/fonts/AmaticSC-Bold.ttf") format("truetype");
+}
