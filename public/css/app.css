@@ -11952,3 +11952,31 @@ textarea.form-control-lg {
   min-height: 40vh;
   background-size: cover;
 }
+
+.sec3 {
+  background-color: rgb(237, 228, 228);
+  min-height: 60vh;
+}
+
+.sec3 .card {
+  width: 20%;
+  height: 300px;
+  height: fit-content;
+  margin: 20px;
+}
+
+.sec3 .card:hover {
+  height: 350px;
+  width: 25%;
+}
+
+.sec3 .card1 {
+  height: 350px;
+  width: 25%;
+}
+
+@media screen and (max-width: 768px) {
+  .sec3 .card {
+    width: 75%;
+  }
+}
