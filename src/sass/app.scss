@@ -1,19 +1,46 @@
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
-
+@import'../../node_modules/@fortawesome/fontawesome-free/css/all.css';
 @import './variables';
 @import './modules/alModules';
 
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+};
 // first section
 #firstSec{
   background-color: rgb(237, 228, 228);
+  width: 100%;
   min-height:90vh;
+  
 };
 
 .amatic{
   font-family: 'Amatic';
-}
+};
 .heroImg{
   
   height: auto;
+};
+
+//second section
+
+#sec2{
+  min-height: 130vh;
+  height: fit-content
+};
+.main-sec-2{
+  height: 70%;
+}
+.main-sec-2 .col-lg-6{
+  background-image: url('../../img/about.jpg');
+  min-height: 90vh;
+  
+
+}
+.videobg{
+  background-image: url(../../img/about-2.jpg);
+  min-height: 40vh;
+  background-size: cover;
 }
