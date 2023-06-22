@@ -11980,3 +11980,6 @@ textarea.form-control-lg {
     width: 75%;
   }
 }
+footer {
+  min-height: 20vh;
+}
