@@ -12023,3 +12023,24 @@ textarea.form-control-lg {
 footer {
   min-height: 20vh;
 }
+
+#modal {
+  height: 75vh;
+  width: 75vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: white;
+}
+
+.modal {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.wut {
+  background-color: gray;
+}

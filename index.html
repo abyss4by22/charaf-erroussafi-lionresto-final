@@ -61,7 +61,7 @@
 
       <!-- toggle button -->
       <div class=" w-20 d-flex justify-content-betweeen">
-        <button class="btn bg-danger text-white rounded-pill mx-4 mx-md-1">connexion</button>
+        <button id="connect" class="btn bg-danger text-white rounded-pill mx-4 mx-md-1">connexion</button>
         <button class="bg-light border-0 d-lg-none mx-sm-0 mx-md-1 bg-white" data-bs-toggle="offcanvas"
           data-bs-target="#offcanvas">
           <span class="navbar-toggler-icon "></span>
@@ -344,8 +344,7 @@
 
     </div>
   </div>
-
-
+ 
   <!-- footer -->
   <footer class="bg-black text-white ">
     <div class=" d-flex flex-column flex-lg-row pt-3 pb-3  border-bottom ">
@@ -391,7 +390,47 @@
 
   </footer>
 
+
+
+  <!-- connexion modal -->
+  <div id="modal" class=" hidden text-center ">
+    <div class=" d-flex flex-column align-items-center">
+      <span id="close" class="align-self-end">X</span>
+      <h2 class="text-danger">sign up:</h2>
+      <div>
+      <p>email:</p>
+      <input type="text">
+    </div>
+    <div>
+      <p>password:</p>
+      <input type="text">
+    </div>
+    <div>
+      <p>confirm password:</p>
+      <input type="text">
+      
+    </div>
+    <button class="btn btn-danger text-white rounded-pill">signup</button>
+    </div>
+
+    <div class=" d-flex flex-column align-items-center justify-content-evenly">
+      <h2 class="text-danger">connect:</h2>
+      <div>
+        <p>email:</p>
+        <input type="text">
+      </div>
+      <div>
+        <p>password:</p>
+        <input type="text">
+      </div>
+      <button class="btn btn-danger text-white rounded-pill">connect</button>
+    </div>
+  </div>
+  
+
+
   <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js "></script>
+  <script src="./public/js/main.js"></script>
 </body>
 
 </html>
