@@ -78,6 +78,20 @@
   
 }
 
+.chef{
+  background-color: rgb(237, 228, 228);
+  min-height: 50vh;
+  height: fit-content;
+}
+
+.card{
+  min-height: 25vh;
+  width: 75%;
+}
+.card div img{
+  width: 100%;
+  height: auto;
+}
 footer{
   min-height: 20vh;
 }
